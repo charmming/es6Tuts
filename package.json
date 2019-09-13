@@ -4,3 +4,13 @@
    "@babel/core": "^7.0.0"
   }
 }
+{
+  "name": "my-project",
+  "version": "1.0.0",
+   "scripts": {
+     "build": "babel src -d lib"
+   },
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  }
+}
