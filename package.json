@@ -1,16 +1,14 @@
 {
-  "devDependencies": {
-   "@babel/cli": "^7.0.0",
-   "@babel/core": "^7.0.0"
-  }
-}
-{
-  "name": "my-project",
+  "name": "es6tuts",
   "version": "1.0.0",
-   "scripts": {
-     "build": "babel src -d lib"
-   },
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel ./src --out-dir ./lib --watch"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "babel-cli": "^6.0.0"
   }
 }
